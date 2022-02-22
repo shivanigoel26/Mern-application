@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+//import { Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -11,6 +11,9 @@ const App = () => {
     <>
       <Navbar />
       <Home />
+      <AboutMe />
+      <Login />
+      <Register />
     </>
   );
 };
